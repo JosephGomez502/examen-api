@@ -1,0 +1,24 @@
+
+# Archivos compilados
+bin/
+obj/
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Configuraciones privadas
+secrets.json
+.env
+.env.*
+!*.env.example
+appsettings.Development.json
+appsettings.Production.json
+
+# Archivos temporales
+*.log
+
+# Docker
+**/.docker/
